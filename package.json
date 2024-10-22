@@ -1,0 +1,35 @@
+{
+  "name": "find-by-reference-in-mongoose",
+  "version": "1.0.0",
+  "description": "Add Mongoose support for finding in reference",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RomainDECOSTER/find-by-reference-in-mongoose.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RomainDECOSTER/find-by-reference-in-mongoose/issues"
+  },
+  "author": "RomainDECOSTER",
+  "keywords": [
+    "mongoose",
+    "reference",
+    "ref",
+    "objectid",
+    "mongodb"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mongoose": "^8.7.2",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  },
+  "peerDependencies": {
+    "mongoose": "^8.7.2"
+  }
+}
