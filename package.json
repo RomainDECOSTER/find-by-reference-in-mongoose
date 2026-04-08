@@ -30,7 +30,7 @@
   "devDependencies": {
     "mongoose": "^9.3.0",
     "tsup": "^8.3.0",
-    "typescript": "^5.6.3"
+    "typescript": "^6.0.2"
   },
   "peerDependencies": {
     "mongoose": "^9.3.0"
