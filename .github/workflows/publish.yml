@@ -39,4 +39,6 @@ jobs:
       - name: Push version bump and tag
         run: git push --follow-tags
 
+      - run: pnpm build
+
       - run: pnpm publish --no-git-checks --provenance
