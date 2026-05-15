@@ -1,6 +1,6 @@
 {
   "name": "find-by-reference-in-mongoose",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Add Mongoose support for finding in reference",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
