@@ -2,14 +2,14 @@
     "compilerOptions": {
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
-        "baseUrl": "src",
         "declaration": true,
         "esModuleInterop": true,
         "inlineSourceMap": false,
-        "lib": ["esnext"],
+        "lib": [
+            "esnext"
+        ],
         "listEmittedFiles": false,
         "listFiles": false,
-        "moduleResolution": "node",
         "noFallthroughCasesInSwitch": true,
         "pretty": true,
         "resolveJsonModule": true,
@@ -19,6 +19,11 @@
         "traceResolution": false,
     },
     "compileOnSave": false,
-    "exclude": ["node_modules", "dist"],
-    "include": ["src"]
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "include": [
+        "src"
+    ]
 }

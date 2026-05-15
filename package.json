@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts --clean -d dist"
+    "build": "tsup src/index.ts --format cjs,esm --clean -d dist && tsc --emitDeclarationOnly --outDir dist && cp dist/index.d.ts dist/index.d.mts"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
   "license": "MIT",
   "devDependencies": {
     "mongoose": "^9.3.0",
-    "tsup": "^8.3.0",
+    "tsup": "^8.5.1",
     "typescript": "^6.0.2"
   },
   "peerDependencies": {
